@@ -1,10 +1,11 @@
-# [허깅페이스 딥 강화학습 강의 🤗 (v2.0)](https://huggingface.co/deep-rl-course/unit0/introduction)
-
+# [허깅페이스 딥 강화학습 강의 🤗 (v2.0) - 한국어 번역본](https://huggingface.co/deep-rl-course/unit0/introduction)
+📝 이 저장소는 [The Hugging Face Deep Reinforcement Learning Course](https://huggingface.co/deep-rl-course/unit0/introduction)의 **비공식 한국어 번역본**입니다. 
+✨ 본 번역은 **GPT-4o**를 이용해 작성되었습니다.
 <img src="https://huggingface.co/datasets/huggingface-deep-rl-course/course-images/resolve/main/en/unit0/thumbnail.jpg" alt="Thumbnail"/>
 
 강의가 마음에 들었다면 **⭐ 레포지토리에 별표**를 남겨줘. 우리에게 큰 도움이 돼 🤗
 
-이 레포지토리에는 딥 강화학습 강의의 mdx 파일과 노트북들이 포함되어 있어.  
+이 레포지토리에는 딥 강화학습 강의의 mdx 파일과 노트북들이 포함되어 있어.
 **강의 웹사이트는 여기야**: https://huggingface.co/deep-rl-course/unit0/introduction?fw=pt
 
 - 강의 계획표 📚: https://simoninithomas.github.io/deep-rl-course  
@@ -25,7 +26,6 @@
 실습 중 문제가 생겼다면, **이슈 섹션을 확인해봐. 커뮤니티에서 공유한 해결 방법이 있을 수 있어.**
 
 ## 프로젝트 인용 방법
-
 출판물에서 이 레포지토리를 인용하려면:
 
 ```bibtex
