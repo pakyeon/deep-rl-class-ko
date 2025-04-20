@@ -1,5 +1,5 @@
 # [허깅페이스 딥 강화학습 강의 🤗 (v2.0) - 한국어 번역본](https://huggingface.co/deep-rl-course/unit0/introduction)
-📝 이 저장소는 [The Hugging Face Deep Reinforcement Learning Course](https://huggingface.co/deep-rl-course/unit0/introduction)의 **비공식 한국어 번역본**입니다. 
+📝 이 저장소는 [The Hugging Face Deep Reinforcement Learning Course](https://huggingface.co/deep-rl-course/unit0/introduction)의 **비공식 한국어 번역본**입니다.  
 ✨ 본 번역은 **GPT-4o**를 이용해 작성되었습니다.
 <img src="https://huggingface.co/datasets/huggingface-deep-rl-course/course-images/resolve/main/en/unit0/thumbnail.jpg" alt="Thumbnail"/>
 
