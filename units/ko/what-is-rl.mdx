@@ -1,0 +1,41 @@
+# 강화학습이란 무엇인가? [[what-is-reinforcement-learning]]
+
+강화학습을 이해하기 위해, 먼저 큰 그림부터 살펴보겠습니다.
+
+## 큰 그림
+
+강화학습의 핵심 아이디어는 에이전트(AI)가 환경과 **상호작용**하고(시행착오를 통해) 행동에 따른 **보상을 받으며**(긍정적이거나 부정적인) 환경으로부터 학습하는 것입니다.
+
+환경과의 상호작용을 통한 학습은 **우리의 자연스러운 경험**에서 비롯됩니다.
+
+예를 들어, 동생을 처음 보는 비디오 게임 앞에 앉혀놓고 컨트롤러를 건네준 후 혼자 두는 상황을 상상해보세요.
+
+
+<img src="https://huggingface.co/datasets/huggingface-deep-rl-course/course-images/resolve/main/en/unit1/Illustration_1.jpg" alt="Illustration_1" width="100%">
+
+동생은 오른쪽 버튼을 누르는(행동) 방식으로 환경(비디오 게임)과 상호작용합니다. 동전을 얻었으니 +1 보상입니다. 긍정적인 보상이므로, 이 게임에서는 **동전을 모아야 한다**는 것을 이해했습니다.
+
+<img src="https://huggingface.co/datasets/huggingface-deep-rl-course/course-images/resolve/main/en/unit1/Illustration_2.jpg" alt="Illustration_2" width="100%">
+
+하지만 **다시 오른쪽 버튼을 누르자** 적과 부딪혔습니다. 죽었기에 -1 보상입니다.
+
+
+<img src="https://huggingface.co/datasets/huggingface-deep-rl-course/course-images/resolve/main/en/unit1/Illustration_3.jpg" alt="Illustration_3" width="100%">
+
+시행착오를 통해 환경과 상호작용하면서, 동생은 **이 환경에서는 동전을 모으되 적을 피해야 한다**는 것을 이해하게 됩니다.
+
+**어떠한 지도도 없이**, 아이는 게임을 점점 더 잘하게 될 것입니다.
+
+이것이 바로 인간과 동물이 학습하는 방식입니다 - **상호작용을 통해서** 말이죠. 강화학습은 단순히 **행동으로부터 학습하는 계산적 접근법**입니다.
+
+
+### 공식적인 정의
+
+이제 우리는 공식적인 정의를 내릴 수 있습니다:
+
+<Tip>
+Reinforcement learning is a framework for solving control tasks (also called decision problems) by building agents that learn from the environment by interacting with it through trial and error and receiving rewards (positive or negative) as unique feedback.
+강화학습은 환경과 상호작용하며 시행착오를 통해 학습하고, 행동에 대한 유일한 피드백으로 보상(긍정적이거나 부정적인)을 받는 에이전트를 만듦으로써 제어 작업(또는 의사결정 문제)을 해결하는 프레임워크입니다.
+</Tip>
+
+그렇다면 강화학습은 어떻게 작동할까요?
